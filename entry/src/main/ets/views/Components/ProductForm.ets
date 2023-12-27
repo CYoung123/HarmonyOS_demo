@@ -41,7 +41,7 @@ export default struct ProductForm{
               this.time = `${value.year}年${value.month+1}月${value.day}日`
             },
             onCancel: () => {
-
+              console.log("ssdsd")
           },
             onChange: (value: DatePickerResult) =>{
 
